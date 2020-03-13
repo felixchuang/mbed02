@@ -1,6 +1,6 @@
 #include "mbed.h"
 
-AnalogOut Aout(DACO_OUT);
+AnalogOut Aout(DAC0_OUT);
 
 int main(){
     float i;
